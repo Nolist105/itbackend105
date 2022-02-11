@@ -19,26 +19,19 @@ class UsersSeeder extends Seeder
     {
         DB::table('users')->delete();
         DB::table('users')->insert([
-            [
-                'name' => 'Kanokporn  Nakpin',
-                'email' => 'giffarine1501@gmail.com',
-                'password' => Hash::make('123456'),
-                'role' => 'TSU',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ],
-            [
-                'name' => 'Ingkamom Poolnual',
-                'email' => 'ingkamon16764daivo@gmail.com',
-                'password' => Hash::make('111111'),
-                'role' => 'TSU',
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ],
+          
             [
                 'name' => 'Watcharin Rotjarenumas',
                 'email' => '622021104@tsu.ac.th',
                 'password' => Hash::make('654321'),
+                'role' => 'TSU',
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+            ],
+            [
+                'name' => 'Sahatsawat Buttakhot',
+                'email' => '622021105@tsu.ac.th',
+                'password' => Hash::make('123456'),
                 'role' => 'TSU',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
